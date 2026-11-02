@@ -32,6 +32,16 @@ flowchart LR
 - **Hybrid AI** — cloud model with a local fallback for cost/resilience.
 - **End-to-end automation** — data → generation → media → publishing, unattended.
 
+## Sample output
+Feed posts rendered by the card generator (`Pillow`) for one week of the four apps:
+
+<p>
+  <img src="docs/screenshots/1-tankbilligt.jpg" width="200" alt="TankBilligt post: 100 octane myth">
+  <img src="docs/screenshots/2-blivklar.jpg" width="200" alt="Bliv Klar post: registration deadline countdown">
+  <img src="docs/screenshots/3-lynkort.jpg" width="200" alt="Lynkort post: quiz card">
+  <img src="docs/screenshots/4-labcompanion.jpg" width="200" alt="LabCompanion post: antibiotic stock dilution">
+</p>
+
 ## Tech stack
 Python · Docker · google-genai (Gemini) · Ollama · moviepy · Pillow · Playwright · psycopg2 / PostgreSQL · pandas · schedule
 
